@@ -31,29 +31,48 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**# 🏥 Citas Médicas App
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Una miniaplicación web desarrollada con **ReactJS** y **Firebase** que permite registrar, visualizar y gestionar citas médicas de pacientes.  
+Ideal como proyecto educativo o demostrativo de integración frontend-backend en tiempo real.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🚀 Demo en vivo
 
-## Learn More
+https://vasqu3z-fredy.github.io/citas-medicas-APP/
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🛠 Tecnologías usadas
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- ⚛️ ReactJS (Create React App)
+- 🔥 Firebase (Firestore como backend)
+- 🧠 JavaScript (ES6)
+- 🎨 CSS (con diseño personalizado)
+- 📦 gh-pages (para deploy en GitHub Pages)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## ✨ Características
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Registro de citas con:
+  - Nombre del paciente
+  - Hora (entre 08:00 y 17:00)
+  - Fecha de la cita
+- Visualización de todas las citas guardadas en Firebase
 
-### Making a Progressive Web App
+---
+
+## 🔐 Variables de entorno (`.env`)
+
+```env
+REACT_APP_FIREBASE_API_KEY=...
+REACT_APP_FIREBASE_AUTH_DOMAIN=...
+REACT_APP_FIREBASE_PROJECT_ID=...
+REACT_APP_FIREBASE_STORAGE_BUCKET=...
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID=...
+REACT_APP_FIREBASE_APP_ID=...
+
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
